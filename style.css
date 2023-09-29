@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top {
@@ -66,7 +67,6 @@ a {
     text-align: start;
     margin-top: 0px;
     height: 300px;
-
 }
 .Description h1 {
     font-weight: bolder;
@@ -88,4 +88,120 @@ a {
     padding: 8px 20px;
     width: 120px;
     border: none;
+    margin-top: 10px;
 }
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 180px;
+    margin-bottom:20px;
+}
+.container h1 {
+    color: #1f2937;
+    font-size: 37px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 50px;
+}
+.holder {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 80px;
+    margin-left: 100px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px 25px;
+}
+.box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    border: 2px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+.box p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(75, 73, 73);
+}
+.qoute {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 70px 180px;
+}
+.qoute p {
+    color: #1F2937;
+    font-size: 37px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-left: 70px;
+}
+.Author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sign-up {
+    padding: 100px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sign-up-container {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 12px;
+    padding: 40px 20px;
+    margin-left: 110px;
+    margin-right: 20;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.sign-up-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    color: #E5E7EB;
+}
+.sign-up-content h2 {
+    margin-bottom: 2px;
+}
+.sign-up-content p {
+    margin-top: 0;
+}
+.sign-up button {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 8px 20px;
+    width: 150px;
+    height: 40px;
+    border: 1px;
+    border: solid;
+    border-style: solid;
+    border-color: #E5E7EB;
+    align-self: center;
+}
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
+
